@@ -1,0 +1,8 @@
+In API 3shan UseSqlServer function
+Microsoft.EntityFrameworkCore.SqlServer 
+Di 3shan a3ml migration fel Infra
+Microsoft.EntityFrameworkCore.Design
+
+In Infrastructure/DB Context to Add Migration
+Microsoft.EntityFrameworkCore.Tools
+Microsoft.EntityFrameworkCore..SqlServer  3shan contains Migration class & Migration Builder
