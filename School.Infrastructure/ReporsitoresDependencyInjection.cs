@@ -6,7 +6,7 @@ namespace School.Infrastructure
 {
     public static class ReporsitoresDependencyInjection
     {
-        public static IServiceCollection AddSchoolReporsitoriesDepenecyInjection(this IServiceCollection services)
+        public static IServiceCollection AddReporsitoriesDepenecyInjection(this IServiceCollection services)
         {
             services.AddTransient<IStudentReporsitory, StudentReporsitory>();
             return services;

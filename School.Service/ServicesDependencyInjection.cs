@@ -6,7 +6,7 @@ namespace School.Service
 {
     public static class ServicesDependencyInjection
     {
-        public static IServiceCollection AddSchoolServicesDependencyInjection(this IServiceCollection services)
+        public static IServiceCollection AddServicesDependencyInjection(this IServiceCollection services)
         {
             services.AddTransient<IStudentService, StudentService>();
             return services;

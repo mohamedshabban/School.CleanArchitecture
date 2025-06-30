@@ -1,5 +1,6 @@
 
 using Microsoft.EntityFrameworkCore;
+using School.Core;
 using School.Infrastructure;
 using School.Infrastructure.Context;
 using School.Service;
@@ -24,8 +25,9 @@ namespace School.Api
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             #region Dependcy Injection
-            builder.Services.AddSchoolServicesDependencyInjection();
-            builder.Services.AddSchoolReporsitoriesDepenecyInjection();
+            builder.Services.AddCoreDependecyInjection();
+            builder.Services.AddServicesDependencyInjection();
+            builder.Services.AddReporsitoriesDepenecyInjection();
             #endregion
             var app = builder.Build();
 
